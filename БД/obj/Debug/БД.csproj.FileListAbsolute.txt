@@ -1,0 +1,10 @@
+C:\Users\gh5\Desktop\хак\БД\bin\Debug\БД.exe.config
+C:\Users\gh5\Desktop\хак\БД\bin\Debug\БД.exe
+C:\Users\gh5\Desktop\хак\БД\bin\Debug\БД.pdb
+C:\Users\gh5\Desktop\хак\БД\obj\Debug\БД.Form1.resources
+C:\Users\gh5\Desktop\хак\БД\obj\Debug\БД.Properties.Resources.resources
+C:\Users\gh5\Desktop\хак\БД\obj\Debug\БД.csproj.GenerateResource.cache
+C:\Users\gh5\Desktop\хак\БД\obj\Debug\БД.csproj.CoreCompileInputs.cache
+C:\Users\gh5\Desktop\хак\БД\obj\Debug\БД.exe
+C:\Users\gh5\Desktop\хак\БД\obj\Debug\БД.pdb
+C:\Users\gh5\Desktop\хак\БД\obj\Debug\БД.csproj.AssemblyReference.cache

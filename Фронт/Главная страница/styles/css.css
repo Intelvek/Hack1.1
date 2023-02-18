@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.body{
+    background: #E9E9E9;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-VariableFont_wght.ttf') ;
+    font-weight: 1;
+    font-style: normal;
+}
+
+.left-side{
+    display: flex;
+}
+
+.right-side{
+    display: flex;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-svg{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.logo-text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 43px;
+    line-height: 50px;
+    color: #000000;
+    margin: 35px 30px 35px 0;
+}
+
+.menu-svg{
+    margin: 40px 0;
+}
+
+.statistics{
+    margin: 39px 0 39px 45px;
+}
+
+.header-search-input{
+    display: none;
+}
+
+.search{
+    margin: 40px 30px;
+}
+
+.users{
+    margin: 40px 30px 0 0;
+}
+
+.liked{
+    margin: 40px 30px 0 0;
+}
+
+.find-button span{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.hide-option{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.hide-option:first-child{
+    position: relative;
+    margin-top: 30px;
+}
+
+.hide-option:last-child{
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.hide-option svg{
+    position: absolute;
+    top: 53px;
+    right: 27px;
+}
+
+.hide-option svg:first-child{
+    position: absolute;
+    top: 0;
+    right: 27px;
+}
+
+.button{
+    margin-left: 68px;
+}
+
+.find-button{
+    background: #BBF3AD;
+    border: 0;
+    border-bottom-right-radius: 41px;
+    border-top-left-radius: 41px;
+    width: 465px;
+    padding: 14px 21px;
+}
+
+
+.hide{
+    background: #FFFFFF;
+    width: 608px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    transition: all .25s;
+    display: none;
+}
+
+
+.menu-svg:hover .hide{
+    display: block;
+}
+
+.card-image{
+    width: 436px;
+    height: 352px;
+    border-radius: 62px;
+}
+
+.card-text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    text-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+    width: 344px;
+    margin: 27px 46px 100px 46px;
+}
+
+.card-product{
+    margin-top: 30px;
+    background: #FFFFFF;
+    /*border: 0.952229px solid #FBFBFB;*/
+    /*box-shadow: 0px 3.80892px 3.80892px rgba(0, 0, 0, 0.25);*/
+    width: 435.17px;
+    height: 538.01px;
+    position: relative;
+    animation: ease-in;
+}
+
+.card-product:hover{
+    border: 0.952229px solid #FBFBFB;
+    box-shadow: 0px 3.80892px 3.80892px rgba(0, 0, 0, 0.25);
+}
+
+.cards-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 35px 56px 30px 0;
+}
+
+.footer{
+    background: #BBF3AD;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-like{
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+}
+
+.card-like-color{
+    background: #BBF3AD;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    border-top-left-radius: 30px;
+}
+
+.card-like-color svg{
+    position: absolute;
+    top: 12px;
+    right: 8px;
+}
+
+.cards-products{
+    margin-bottom: 50px;
+}
+
+.statistics{
+    margin: 39px 0 39px 45px;
+    fill: #565656;
+}
+
+.statistics:hover{
+    fill: #BBF3AD;
+}
+
+.map{
+    margin-left: 10px;
+}
+
+
+
